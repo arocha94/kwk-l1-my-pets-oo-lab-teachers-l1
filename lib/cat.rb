@@ -9,11 +9,13 @@ class Cat
     @name 
   end 
   
-  def mood(mood)
+  def mood
     @mood
   end 
   
-  
+  def mood(mood)
+    @mood
+  end 
   
 end
 
