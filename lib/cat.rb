@@ -13,5 +13,7 @@ class Cat
     @mood
   end 
   
+  
+  
 end
 
