@@ -36,7 +36,7 @@ class Owner
  end 
  
  def buy_fish
-   @buy_fish.push 
+   @pets.push(buy_fish) 
  end 
 
  end
