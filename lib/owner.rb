@@ -22,5 +22,13 @@ class Owner
    @say_species
    "I am a human."
  end
+ 
+ def pets=(pets)
+   @pets = pets
+ end 
+ 
+ def pets 
+   @pets
+ end 
 
  end
