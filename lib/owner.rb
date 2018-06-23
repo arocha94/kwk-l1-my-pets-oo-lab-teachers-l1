@@ -1,20 +1,17 @@
 class Owner
   
-  def initialize(species) 
+  def initialize(name) 
     @name = name
-    @mood = "nervous"
+    @species
   end 
   
   def name 
     @name 
   end 
   
-  def mood=(mood)
-    @mood = mood
-  end 
-  
-  def mood
-    @mood
-  end
+ def species
+   @species
+ end 
+ 
 
  end
