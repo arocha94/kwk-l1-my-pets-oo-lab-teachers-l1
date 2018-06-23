@@ -3,6 +3,7 @@ class Owner
   def initialize(name) 
     @name = name
     @species = "human"
+    @pets = {fishes, cats, dogs}
   end 
   
   def name=(name)
