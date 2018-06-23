@@ -15,6 +15,7 @@ class Owner
  
  def say_species
    @say_species
+   "I am human."
  end
 
  end
