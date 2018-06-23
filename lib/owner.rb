@@ -31,6 +31,12 @@ class Owner
    @pets
  end 
  
+ def buy_fish=(buy_fish)
+   @buy_fish = buy_fish
+ end 
  
+ def buy_fish
+   @buy_fish
+ end 
 
  end
